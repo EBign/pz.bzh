@@ -43,7 +43,8 @@ header{
     height: auto;
     background-color: orange;
     color: midnightblue;
-    font-family: impact;
+    font-family: arial;
+    font-weight: bold;
     font-size: 30px;
     text-align: center;
     padding-top: 10px;
@@ -57,7 +58,8 @@ header{
     right: 20px;
     background-color: midnightblue;
     color: white;
-    font-family: impact;
+    font-family: arial;
+    font-weight: bold;
     letter-spacing: 1px;
     padding: 15px;
     height: auto;
@@ -346,8 +348,8 @@ h3{
 .titreproduitprefer{
     color: white;
     font-size: 28px;
-    font-family: impact;
-    font-weight: lighter;
+    font-family: arial;
+    font-weight: bold;
     letter-spacing: 3px;
     margin-top: 5px;
     padding-bottom: 200px;
