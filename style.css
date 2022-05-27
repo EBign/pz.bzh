@@ -1,0 +1,659 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+}
+header{
+    width: 250px;
+    background-color: transparent;
+    display: block;
+    align-items: initial;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    z-index: 5;
+}
+.montreheader{
+    height: auto;
+}
+.coin{
+    position: absolute;
+    background-color: white;
+    border: solid midnightblue 5px;
+    border-left: none;
+    width: 180px;
+    height: 420px;
+    border-bottom-right-radius: 200px;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    -webkit-box-shadow: 5px 5px 21px 1px #000000; 
+    box-shadow: 5px 5px 21px 1px #000000;
+}
+.bandeau{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: orange;
+    color: midnightblue;
+    font-family: impact;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+.scores{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: midnightblue;
+    color: white;
+    font-family: impact;
+    letter-spacing: 1px;
+    padding: 15px;
+    height: auto;
+    width: auto;
+    font-size: 30px;
+    border-radius: 30px;
+}
+.logo{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 5;
+}
+.marque{
+    position: absolute;
+    top: 200px;
+    width: 120px;
+    margin-left: 20px;
+    font-family: arial;
+    font-size: 24px;
+    font-weight: bold;
+    color: midnightblue;
+    text-align: center;
+    line-height: 20px;
+    z-index: 5;
+}
+
+h1{
+    position: absolute;
+    min-width: 200px;
+    font-family: impact;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 6px;
+    color: white;
+    text-align: center;
+    top: 80px;
+    left: 230px;
+}
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.bouttonnav{
+    position: absolute;
+    left: 45px;
+    text-align: center;
+    visibility: visible;
+    top: 300px;
+    text-align: center;
+    z-index: 1;
+}
+.barre{
+    width: 40px;
+    height: 8px;
+    background-color: orange;
+    margin-top: 8px;
+}
+#barre1{
+    transform: rotate(70deg) translateX(40px);
+}
+#barre2{
+    transform: rotate(-20deg) translateY(48px) translateX(-12px);
+}
+.croix #barre1{
+    transform: rotate(250deg) translateX(-51px) translateY(-10px);
+}
+.croix #barre2{
+    transform: rotate(160deg) translateY(-12px) translateX(-12px);
+}
+nav{
+    visibility: hidden;
+    position: absolute;
+    top: 400px;
+    padding: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.montrenav{
+    visibility: visible;
+    background-color: midnightblue;
+}
+ul{
+    width: 100%;
+    padding: 0;
+    display: block;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+li{
+    font-family: arial;
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 50px;
+}
+li a{
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+.baniere{
+    height: auto;
+    overflow-y: scroll;
+    background-color: transparent;
+    text-align: center;
+    margin: 0;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    border-bottom: 2px solid white;
+    z-index: -5;
+    display: flex;
+}
+.baniere a{
+    color: black;
+    width: 800px;
+    height: 500px;
+}
+.categorie{
+    width: 800px;
+    height: 500px;
+    border-radius: 50px;
+    -webkit-box-shadow: 5px 5px 21px 1px #858585; 
+    box-shadow: 5px 5px 21px 1px #858585;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: black;
+}
+#vrac{
+    background-image: url(vrac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#reparation{
+    background-image: url(reparation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+#treed{
+    background-image: url(treed.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+#valeurs{
+    background-image: url(valeurs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+#boutiques{
+    background-image: url(boutiques.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+#fichier{
+    background-image: url(fichier.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+#lettre{
+    background-image: url(lettre.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+#equipe{
+    background-image: url(equipe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+#vrac p, #reparation p, #treed p, #valeurs p, #boutiques p, #fichier p, #lettre p, #equipe p{
+    font-family: arial;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 70%;
+    margin-left: 15%;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.5);
+}
+h2{
+    width: 800px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: arial;
+}
+h3{
+    font-family: Arial;
+    font-size: 34px;
+}
+.prefer h3{
+    font-weight: bold;
+    font-size: 60px;
+}
+.bancta{
+    height: 420px;
+    text-align: center;
+    background-color: #faebd7;
+    padding-top: 150px;
+    margin-top: -200px;
+}
+.cta{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    background-color: orange;
+    -webkit-box-shadow: 13px 15px 0px 2px #10009E; 
+    box-shadow: 13px 15px 0px 2px #10009E;
+    border: none;
+    border-radius: 100px;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.prefer{
+    display: block;
+    padding-top: 150px;
+    margin-top: -200px;
+    text-align: center;
+    background-color: midnightblue;
+    color: white;
+    padding-bottom: 150px;
+    margin-bottom: -60px;
+}
+#supportsmartphone{
+    background-image: url(supportsmartphone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#supportbrossesadents{
+    background-image: url(supportbrossesadents.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#portesavon{
+    background-image: url(portesavon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#bouclesdoreilles{
+    background-image: url(bouclesdoreilles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sacamain{
+    background-image: url(sacamain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#bague{
+    background-image: url(bague.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#cachepoteau{
+    background-image: url(cachepoteau.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bande{
+    display: flex;
+    justify-content: space-around;
+}
+.produitprefer{
+    position: relative;
+    height: 300px;
+    width: 28%;
+    margin-bottom: 40px;
+    background-color: brown;
+    -webkit-box-shadow: 10px 10px 0px 2px white; 
+    box-shadow: 10px 10px 0px 2px white;
+    border-radius: 20px;text-align: center;
+}
+.titreproduitprefer{
+    color: white;
+    font-size: 28px;
+    font-family: impact;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    margin-top: 5px;
+    padding-bottom: 200px;
+}
+.couleurs{
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    justify-content: space-around;
+    display: flex;
+    bottom: 20px;
+}
+.blanc{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+.noir{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: black;
+}
+.bleu{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: midnightblue;
+}
+.orange{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: orange;
+}
+.anthracite{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #383838;
+}
+.beige{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: beige;
+}
+.transparent{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
+}
+.baniere p{
+    font-family: arial;
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.categories{
+    width: 100%;
+    display: block;
+}
+.pres{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    font-family: arial;
+}
+.pres a{
+    text-decoration: none;
+    color: white;
+}
+.presvrac, .presreparation, .prestreed{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.presvrac{
+    background-image: url(darkvrac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+.presreparation{
+    background-image: url(darkreparation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+.prestreed{
+    background-image: url(darktreed.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+.pres h2{
+    margin-top: 100px;
+    transition: 0.2s;
+    z-index: 8;
+    font-size: 60px;
+    font-weight: bold;
+}
+.pres p{
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    z-index: 8;
+    font-size: 30px;
+    font-weight: bold;
+}
+.presvrac:hover h2{
+    text-decoration: underline 3px;
+    text-underline-offset: 3px;
+}
+.presreparation:hover h2{
+    text-decoration: underline 3px;
+    text-underline-offset: 3px;
+}
+.prestreed:hover h2{
+    text-decoration: underline 3px;
+    text-underline-offset: 3px;
+}
+.valeurs{
+    width: 100%;
+    color: white;
+    font-family: arial;
+    text-align: center;
+    background-color: rgb(129, 129, 245);
+    margin-top: 0;
+    padding-bottom: 50px;
+    padding-top: 150px;
+    margin-top: -200px;
+    margin-bottom: -20px;
+}
+.valeurs h2{
+    width: 100%;
+    text-align: center;
+}
+.valeurs h3{
+    color: #8181f5;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+.desvaleurs{
+    font-weight: bold;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    font-size: 20px;
+}
+.introvaleurs{
+    font-size: 16px;
+    font-style: italic;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+.boutiques{
+    background-color: #ffe4c4;
+    text-align: center;
+    padding: 100px;
+    padding-top: 200px;
+    margin-top: -150px;
+    margin-bottom: -5px;
+    font-family: arial;
+    color: midnightblue;
+}
+.titreboutiques{
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+.boutiques mark{
+    background-color: transparent;
+    font-weight: bold;
+    color: midnightblue;
+}
+.fichier{
+    color: midnightblue;
+    padding-top: 200px;
+    margin-top: -150px;
+}
+.fichier h2{
+    width: 100%;
+    text-align: center;
+}
+.printservice{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.lettreinfo{
+    background-color: #8181f5;
+    padding-top: 150px;
+    margin-top: -200px;
+    color: white;
+    font-family: arial;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: -5px;
+}
+.bimensuel{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.titrelettre{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    transition: 0.2s;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: midnightblue;
+    font-size: 34px;
+}
+.titrelettre:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.equipe{
+    background-color: midnightblue;
+    padding-top: 150px;
+    margin-top: -200px;
+    text-align: center;
+    font-family: arial;
+    color: white;
+    padding-bottom: 200px;
+    margin-bottom: -50px;
+}
+
+.equipe p{
+    padding-bottom: 50px;
+}
+.equipe mark{
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+}
+.perso{
+    margin-top: 150px;
+}
+.perso img{
+    width: 300px;
+    height: auto;
+    border-radius: 1000px;
+}
+.nom{
+    margin-bottom: 100px;
+}
+.guides{
+    width: 100%;
+}
+footer{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: arial;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-top: 5px solid white;
+}
+footer h4{
+    margin-bottom: 50px;
+}
+.ajout{
+    display: block;
+}
+.ajout img{
+    width: 60%;
+    margin-bottom: 50px;
+}
+.remonter{
+    position: fixed;
+    top: 85%;
+    left: 88%;
+    height: 150px;
+    z-index: 3;
+    transition: 0.5s;
+    animation: haut 2s infinite;
+  }
+@keyframes haut{
+    0%{
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(20px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
