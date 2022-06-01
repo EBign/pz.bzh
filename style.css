@@ -52,6 +52,12 @@ header{
     letter-spacing: 2px;
     z-index: 2;
 }
+.bandeau a{
+    text-decoration: none;
+    color: midnightblue;
+    font-family: arial;
+    font-weight: bold;
+}
 .scores{
     position: absolute;
     top: 80px;
@@ -263,6 +269,10 @@ h3{
     font-weight: bold;
     font-size: 60px;
 }
+.prefer p{
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
 .bancta{
     height: 420px;
     text-align: center;
@@ -316,8 +326,8 @@ h3{
     background-size: cover;
     background-repeat: no-repeat;
 }
-#sacamain{
-    background-image: url(sacamain.jpg);
+#decovegetale{
+    background-image: url(decovegetale.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -331,14 +341,24 @@ h3{
     background-size: cover;
     background-repeat: no-repeat;
 }
+#pignon{
+    background-image: url(pignon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#gachevelux{
+    background-image: url(gachevelux.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .bande{
     display: flex;
     justify-content: space-around;
 }
 .produitprefer{
     position: relative;
-    height: 300px;
     width: 28%;
+    height: auto;
     margin-bottom: 40px;
     background-color: brown;
     -webkit-box-shadow: 10px 10px 0px 2px white; 
@@ -535,7 +555,7 @@ h3{
     color: midnightblue;
 }
 .titreboutiques{
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 100px;
 }
 .boutiques mark{
@@ -565,6 +585,8 @@ h3{
     text-align: center;
     padding-bottom: 50px;
     margin-bottom: -5px;
+}.lettreinfo a{
+    color: white;
 }
 .bimensuel{
     width: 100%;
@@ -631,6 +653,9 @@ footer{
 }
 footer h4{
     margin-bottom: 50px;
+}
+footer a{
+    color: white;
 }
 .ajout{
     display: block;
