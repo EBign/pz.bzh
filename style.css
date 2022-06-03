@@ -730,6 +730,7 @@ footer a{
         width: 20px;
         height: 4px;
         margin-top: 8px;
+        z-index: 10;
     }
     #barre1{
         transform: rotate(70deg) translateX(60px) translateY(10px);
