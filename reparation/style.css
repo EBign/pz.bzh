@@ -325,20 +325,17 @@ h1{
     border: none;
 }
 .cta{
-    font-family: arial;
-    font-weight: bold;
-    font-size: 36px;
-    color: white;
     background-color: orange;
-    -webkit-box-shadow: 13px 15px 0px 2px #10009E; 
-    box-shadow: 13px 15px 0px 2px #10009E;
-    border: none;
     border-radius: 100px;
-    padding: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    -webkit-box-shadow: 10px 14px 0px 2px #10009E; 
+    box-shadow: 10px 14px 0px 2px #10009E;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
 }
 footer{
     height: auto;
@@ -452,7 +449,7 @@ footer a{
         font-size: 22px;
     }
     .choix{
-        height: 250px;
+        height: 150px;
     }
     .choix button{
         width: 100%;
@@ -471,6 +468,14 @@ footer a{
     .blanc, .noir, .orange, .bleu, .beige, .transparent, .anthracite{
         width: 15px;
         height: 15px;
+    }
+    .cta{
+        font-size: 22px;
+        -webkit-box-shadow: 8px 10px 0px 2px #10009E; 
+        box-shadow: 8px 10px 0px 2px #10009E;
+        padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     footer{
         padding-top: 50px;
@@ -502,9 +507,6 @@ footer a{
   @media screen and (min-width: 1350px){
     .bancta, .prefer, .valeurs, .boutiques, .lettreinfo, .equipe{
         margin-top: -180px;
-    }
-    .bancta .cta{
-        top: 430px;
     }
     .prefer{
         padding-left: 25%;
@@ -600,7 +602,7 @@ footer a{
         font-size: 22px;
     }
     .choix{
-        height: 300px;
+        height: 150px;
     }
     .choix button{
         font-size: 22px;
