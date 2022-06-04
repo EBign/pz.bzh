@@ -231,7 +231,7 @@ h1{
     box-shadow: 10px 10px 0px 2px white;
     border-radius: 20px;text-align: center;
 }
-.bande p{
+.prix{
     width: 33%;
     color: white;
     z-index: 5;
@@ -256,6 +256,7 @@ h1{
     text-align: left;
     margin-bottom: 20px;
     padding-bottom: 5px;
+    cursor: pointer;
 }
 .titreproduitprefer{
     color: white;
@@ -362,4 +363,250 @@ footer a{
 .ajout img{
     width: 60%;
     margin-bottom: 50px;
+}
+@media screen and (min-width: 1000px){
+    .bandeau{
+        display: none;
+    }
+    header{
+        padding-top: 10px;
+        z-index: 8;
+    }
+    .logo{
+        height: 60px;
+        width: 60px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .marque{
+        top: 80px;
+        width: 60px;
+        margin-left: 10px;
+        font-family: arial;
+        font-size: 14px;
+        font-weight: bold;
+        color: midnightblue;
+        text-align: center;
+        line-height: 15px;
+    }
+    .coin{
+        width: 90px;
+        height: 210px;
+        border-bottom-right-radius: 100px;
+        margin-top: -10px;
+    }
+    .bouttonnav{
+        left: 20px;
+        top: 100px;
+        cursor: pointer;
+    }
+    .barre{
+        width: 20px;
+        height: 4px;
+        margin-top: 8px;
+        z-index: 10;
+    }
+    #barre1{
+        transform: rotate(70deg) translateX(60px) translateY(10px);
+    }
+    #barre2{
+        transform: rotate(-20deg) translateY(57px) translateX(-14px);
+    }
+    .croix #barre1{
+        transform: rotate(250deg) translateX(-60px) translateY(-20px);
+    }
+    .croix #barre2{
+        transform: rotate(160deg) translateY(-41px) translateX(8px);
+    }
+    li{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    nav{
+        top: 200px;
+        z-index: 8;
+    }
+    ul{
+        padding: 0px;
+        z-index: 8;
+    }
+    .scores{
+        top: 20px;
+        padding: 5px;
+        font-size: 16px;
+    }
+    .prefer{
+        padding-top: 150px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .prefer h3{
+        font-size: 30px;
+        margin-top: -50px;
+    }
+    .bande p{
+        margin-bottom: 20px;
+    }
+    .prix{
+        padding-top: 70px;
+        font-size: 22px;
+    }
+    .choix{
+        height: 250px;
+    }
+    .choix button{
+        width: 100%;
+        height: 30px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+    }
+    .produitprefer{
+        height: 210px;
+        margin-bottom: 10px;
+    }
+    .titreproduitprefer{
+        font-size: 18px;
+    }
+    .blanc, .noir, .orange, .bleu, .beige, .transparent, .anthracite{
+        width: 15px;
+        height: 15px;
+    }
+    footer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .ajout{
+        width: 30%;
+        margin-left: 35%;
+    }
+    .ajout img{
+        width: 100%;
+    }
+    .remonter{
+        position: fixed;
+        top: 80%;
+        left: 92%;
+        height: 80px;
+      }
+  }
+
+  @media screen and (min-width: 1270px){
+    .produitprefer{
+        height: 220px;
+    }
+    footer{
+        font-size: 22px;
+    }
+  }
+  @media screen and (min-width: 1350px){
+    .bancta, .prefer, .valeurs, .boutiques, .lettreinfo, .equipe{
+        margin-top: -180px;
+    }
+    .bancta .cta{
+        top: 430px;
+    }
+    .prefer{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .ajout, #ajout{
+        display: none;
+    }
+    .produitprefer{
+        height: 200px;
+    }
+}
+@media screen and (min-width: 1430px){
+    .produitprefer{
+        height: 210px;
+    }
+}
+@media screen and (min-width: 1530px){
+    .prefer p{
+        font-size: 18px;
+    }
+    .produitprefer{
+        height: 220px;
+    }
+}
+@media screen and (min-width: 1670px){
+    .produitprefer{
+        height: 240px;
+    }
+}
+@media screen and (min-width: 1910px){
+    .produitprefer{
+        height: 270px;
+    }
+    footer{
+        font-size: 22px;
+    }
+}
+@media screen and (min-width: 2500px){
+    .coin{
+        width: 120px;
+        height: 300px;
+        border-bottom-right-radius: 150px;
+    }
+    .logo{
+        height: 90px;
+        width: 90px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .marque{
+        top: 120px;
+        width: 90px;
+        margin-left: 12px;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 18px;
+    }
+    .barre{
+        width: 30px;
+        height: 6px;
+        margin-top: 12px;
+    }
+    #barre1{
+        transform: rotate(70deg) translateX(120px) translateY(15px);
+    }
+    #barre2{
+        transform: rotate(-20deg) translateY(116px) translateX(-22px);
+    }
+    .croix #barre1{
+        transform: rotate(250deg) translateX(-130px) translateY(-30px);
+    }
+    .croix #barre2{
+        transform: rotate(160deg) translateY(-100px) translateX(8px);
+    }
+    li{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    nav{
+        top: 280px;
+    }
+    .produitprefer{
+        height: 360px;
+    }
+    .prefer h3{
+        font-size: 50px;
+    }
+    .prefer p{
+        font-size: 26px;
+    }
+    .titreproduitprefer{
+        font-size: 22px;
+    }
+    .choix{
+        height: 300px;
+    }
+    .choix button{
+        font-size: 22px;
+        height: 40px;
+    }
+    footer{
+        font-size: 26px;
+    }
 }
