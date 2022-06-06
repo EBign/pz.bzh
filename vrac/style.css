@@ -181,7 +181,7 @@ h3{
 }
 .prefer p{
     margin-top: -50px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 .prefer{
     display: block;
@@ -258,7 +258,7 @@ h1{
 }
 .choix{
     width: 28%;
-    height: 300px;
+    height: 340px;
     display: block;
     text-align: center;
 }
