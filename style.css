@@ -359,7 +359,7 @@ h3{
 .produitprefer{
     position: relative;
     width: 28%;
-    height: auto;
+    height: 300px;
     margin-bottom: 40px;
     background-color: brown;
     -webkit-box-shadow: 10px 10px 0px 2px white; 
