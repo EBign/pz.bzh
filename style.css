@@ -634,6 +634,9 @@ h3{
     height: auto;
     border-radius: 1000px;
 }
+.perso a{
+    color: white;
+}
 .nom{
     margin-bottom: 100px;
 }
