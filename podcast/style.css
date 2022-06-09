@@ -1,0 +1,422 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+}
+header{
+    width: 250px;
+    background-color: transparent;
+    display: block;
+    align-items: initial;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    z-index: 5;
+}
+.montreheader{
+    height: auto;
+}
+.coin{
+    position: absolute;
+    background-color: white;
+    border: solid midnightblue 5px;
+    border-left: none;
+    width: 180px;
+    height: 420px;
+    border-bottom-right-radius: 200px;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    -webkit-box-shadow: 5px 5px 21px 1px #000000; 
+    box-shadow: 5px 5px 21px 1px #000000;
+}
+.bandeau{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: orange;
+    color: midnightblue;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+.bandeau a{
+    text-decoration: none;
+    color: midnightblue;
+    font-family: arial;
+    font-weight: bold;
+}
+.scores{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: midnightblue;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 15px;
+    height: auto;
+    width: auto;
+    font-size: 30px;
+    border-radius: 30px;
+    border: white 2px dashed;
+}
+.logo{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 5;
+}
+.marque{
+    position: absolute;
+    top: 200px;
+    width: 120px;
+    margin-left: 20px;
+    font-family: arial;
+    font-size: 24px;
+    font-weight: bold;
+    color: midnightblue;
+    text-align: center;
+    line-height: 20px;
+    z-index: 5;
+}
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.bouttonnav{
+    position: absolute;
+    left: 45px;
+    text-align: center;
+    visibility: visible;
+    top: 300px;
+    text-align: center;
+    z-index: 1;
+}
+.barre{
+    width: 40px;
+    height: 8px;
+    background-color: orange;
+    margin-top: 8px;
+}
+#barre1{
+    transform: rotate(70deg) translateX(40px);
+}
+#barre2{
+    transform: rotate(-20deg) translateY(48px) translateX(-12px);
+}
+.croix #barre1{
+    transform: rotate(250deg) translateX(-51px) translateY(-10px);
+}
+.croix #barre2{
+    transform: rotate(160deg) translateY(-12px) translateX(-12px);
+}
+nav{
+    visibility: hidden;
+    position: absolute;
+    top: 400px;
+    padding: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    z-index: 8;
+}
+.montrenav{
+    visibility: visible;
+    background-color: bisque;
+}
+ul{
+    width: 100%;
+    padding: 0;
+    display: block;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+li{
+    font-family: arial;
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 50px;
+}
+li a{
+    font-style: normal;
+    color: midnightblue;
+    text-decoration: none;
+}
+li:hover{
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: arial;
+}
+h1{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.mur{
+    padding-top: 200px;
+    padding-bottom: 300px;
+    text-align: center;
+}
+.introcta{
+    font-size: 22px;
+    font-family: arial;
+    color: midnightblue;
+    margin-top: 200px;
+}
+.podcast{
+    background-color: orange;
+    width: 70%;
+    height: 400px;
+    margin-left: 15%;
+    border-radius: 50px;
+}
+.podcast audio{
+    transform: scale(2);
+    background-color: transparent;
+}
+.titrepodcast{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: arial;
+    font-size: 34px;
+    font-weight: bold;
+    width: 90%;
+    margin-left: 5%;
+}
+.cta{
+    background-color: orange;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    -webkit-box-shadow: 10px 14px 0px 2px #10009E; 
+    box-shadow: 10px 14px 0px 2px #10009E;
+    margin-top: 40px;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+footer{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: arial;
+    font-size: 18px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-top: 5px solid white;
+}
+footer h4{
+    margin-bottom: 50px;
+}
+footer a{
+    color: white;
+}
+.ajout{
+    display: block;
+}
+.ajout img{
+    width: 60%;
+    margin-bottom: 50px;
+}
+@media screen and (min-width: 1000px){
+    .bandeau{
+        display: none;
+    }
+    header{
+        padding-top: 10px;
+        z-index: 8;
+    }
+    .logo{
+        height: 60px;
+        width: 60px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .marque{
+        top: 80px;
+        width: 60px;
+        margin-left: 10px;
+        font-family: arial;
+        font-size: 14px;
+        font-weight: bold;
+        color: midnightblue;
+        text-align: center;
+        line-height: 15px;
+    }
+    .coin{
+        width: 90px;
+        height: 210px;
+        border-bottom-right-radius: 100px;
+        margin-top: -10px;
+    }
+    .bouttonnav{
+        left: 20px;
+        top: 100px;
+        cursor: pointer;
+    }
+    .barre{
+        width: 20px;
+        height: 4px;
+        margin-top: 8px;
+        z-index: 10;
+    }
+    #barre1{
+        transform: rotate(70deg) translateX(60px) translateY(10px);
+    }
+    #barre2{
+        transform: rotate(-20deg) translateY(57px) translateX(-14px);
+    }
+    .croix #barre1{
+        transform: rotate(250deg) translateX(-60px) translateY(-20px);
+    }
+    .croix #barre2{
+        transform: rotate(160deg) translateY(-41px) translateX(8px);
+    }
+    li{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    nav{
+        top: 200px;
+        z-index: 8;
+    }
+    ul{
+        padding: 0px;
+        z-index: 8;
+    }
+    .scores{
+        top: 20px;
+        padding: 5px;
+        font-size: 16px;
+    }
+    .cta{
+        font-size: 22px;
+        -webkit-box-shadow: 8px 10px 0px 2px #10009E; 
+        box-shadow: 8px 10px 0px 2px #10009E;
+        padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    footer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .ajout{
+        width: 30%;
+        margin-left: 35%;
+    }
+    .ajout img{
+        width: 100%;
+    }
+    .remonter{
+        position: fixed;
+        top: 80%;
+        left: 92%;
+        height: 80px;
+      }
+  }
+
+  @media screen and (min-width: 1270px){
+    footer{
+        font-size: 22px;
+    }
+  }
+  @media screen and (min-width: 1350px){
+    .ajout, #ajout{
+        display: none;
+    }
+}
+@media screen and (min-width: 1430px){
+}
+@media screen and (min-width: 1530px){
+}
+@media screen and (min-width: 1670px){
+}
+@media screen and (min-width: 1910px){
+    footer{
+        font-size: 22px;
+    }
+}
+@media screen and (min-width: 2500px){
+    .coin{
+        width: 120px;
+        height: 300px;
+        border-bottom-right-radius: 150px;
+    }
+    .logo{
+        height: 90px;
+        width: 90px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .marque{
+        top: 120px;
+        width: 90px;
+        margin-left: 12px;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 18px;
+    }
+    .barre{
+        width: 30px;
+        height: 6px;
+        margin-top: 12px;
+    }
+    #barre1{
+        transform: rotate(70deg) translateX(120px) translateY(15px);
+    }
+    #barre2{
+        transform: rotate(-20deg) translateY(116px) translateX(-22px);
+    }
+    .croix #barre1{
+        transform: rotate(250deg) translateX(-130px) translateY(-30px);
+    }
+    .croix #barre2{
+        transform: rotate(160deg) translateY(-100px) translateX(8px);
+    }
+    li{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    nav{
+        top: 280px;
+    }
+    footer{
+        font-size: 26px;
+    }
+}
