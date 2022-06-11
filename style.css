@@ -202,6 +202,11 @@ li:hover{
     margin-left: 25px;
     margin-right: 25px;
     color: black;
+    transition: 0.2s;
+}
+.categorie:hover{
+    transform: scale(1.02);
+    z-index: 10;
 }
 #vrac{
     background-image: url(vrac.jpg);
@@ -296,6 +301,10 @@ h3{
     margin-top: 100px;
     margin-bottom: 0;
     cursor: pointer;
+    transition: 0.2s;
+}
+.cta:hover{
+    transform: scale(1.05);
 }
 .prefer{
     display: block;
@@ -306,6 +315,10 @@ h3{
     color: white;
     padding-bottom: 150px;
     margin-bottom: -60px;
+}
+.stprefer{
+    font-family: arial;
+    font-size: 14px;
 }
 #supportsmartphone{
     background-image: url(supportsmartphone.jpg);
@@ -505,6 +518,45 @@ h3{
 .prestreed:hover h2{
     text-decoration: underline 3px;
     text-underline-offset: 3px;
+}
+.vagueprefer{
+    margin-top: 20px;
+}
+.articles{
+    color: midnightblue;
+}
+.articles h2{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+.articles .caroussel{
+    display: flex;
+    overflow-x: scroll;
+}
+.article{
+    text-align: center;
+    height: 1300px;
+    font-family: arial;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.titrearticle{
+    font-size: 40px;
+    height: 110px;
+}
+.article img{
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden; 
+}
+.article p{
+    width: 800px;
+    font-size: 34px;
+    text-align: justify;
 }
 .valeurs{
     width: 100%;
@@ -835,6 +887,30 @@ footer a{
     }
     .vagueprefer{
         transform: scaleY(0.2);
+        margin-top: -50px;
+        z-index: -5;
+    }
+    .articles{
+        margin-top: -80px;
+    }
+    .article{
+        width: 500px;
+        height: 700px;
+    }
+    .titrearticle{
+        font-size: 22px;
+        height: 50px;
+    }
+    .article img{
+        width: 500px;
+        height: 250px;
+    }
+    .article p{
+        width: 500px;
+        font-size: 16px;
+    }
+    .vaguearticles{
+        transform: scaleY(0.2);
         margin-top: -130px;
         z-index: -5;
     }
@@ -848,7 +924,7 @@ footer a{
         padding: 0;
         margin-left: 25%;
     }
-    .valeurs h3{
+    .valeurs h3, .articles h2{
         font-size: 30px;
     }
     .vaguevaleurs{
@@ -950,6 +1026,9 @@ footer a{
       .boutiques p{
           font-size: 20px;
       }
+      .vagueprefer{
+        margin-top: -65px;
+      }
   }
   @media screen and (min-width: 1350px){
     .bancta, .prefer, .valeurs, .boutiques, .lettreinfo, .equipe{
@@ -976,9 +1055,12 @@ footer a{
     .boutiques{
         padding-top: 150px;
     }
+    .vagueprefer{
+        margin-top: -80px;
+      }
 }
 @media screen and (min-width: 1530px){
-    .vaguebancta, .vagueboutiques, .vaguefichier, .vaguelettre, .vagueprefer, .vaguevaleurs{
+    .vaguebancta, .vagueboutiques, .vaguefichier, .vaguelettre, .vaguevaleurs{
         margin-top: -140px;
     }
     .bancta, .prefer, .valeurs, .boutiques, .lettreinfo, .equipe{
@@ -1014,6 +1096,9 @@ footer a{
     .produitprefer{
         height: 240px;
     }
+    .vagueprefer{
+        margin-top: -100px;
+      }
 }
 @media screen and (min-width: 1910px){
     .baniere{
@@ -1030,6 +1115,18 @@ footer a{
     }
     .produitprefer{
         height: 270px;
+    }
+    .vagueprefer{
+        margin-top: -120px;
+      }
+    .article{
+        height: 800px;
+      }
+    .article p{
+        font-size: 20px;
+    }
+    .introvaleurs{
+        font-size: 20px;
     }
     .bancta, .prefer, .valeurs, .boutiques, .lettreinfo, .equipe{
         margin-top: -250px;
@@ -1078,6 +1175,22 @@ footer a{
     }
     .vagueprefer{
         margin-top: -200px;
+    }
+    .article{
+        height: 1200px;
+        width: 800px;
+    }
+    .titrearticle{
+        font-size: 30px;
+        height: 100px;
+    }
+    .article img{
+        width: 800px;
+        height: 400px;
+    }
+    .article p{
+        width: 800px;
+        font-size: 26px;
     }
     .vaguebaniere{
         margin-top: -240px;
@@ -1137,14 +1250,18 @@ footer a{
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .bande{
+        width: 80%;
+        margin-left: 10%;
+    }
     .produitprefer{
-        height: 410px;
+        height: 340px;
     }
     .blanc, .noir, .orange, .bleu, .beige, .transparent, .anthracite{
         width: 30px;
         height: 30px;
     }
-    .prefer h3, .valeurs h2, .titreboutiques, .fichier h2, .equipe h2, .lettreinfo h2{
+    .prefer h3, .valeurs h2, .titreboutiques, .fichier h2, .equipe h2, .lettreinfo h2, .articles h2{
         font-size: 50px;
     }
     .prefer p{
